@@ -4,12 +4,21 @@ $userModel = new UserModel();
 
 $user = NULL; //Add new user
 $id = NULL;
-
-if (!empty($_GET['id'])) {
-    $id = $_GET['id'];
-    $user = $userModel->findUserById($id);//Update existing user
+function hashId($id) {
+    return md5($id);
 }
+if (!empty($_GET['id'])) {
+    $hashID = $_GET['id'];
+    $allUsers = $userModel->getUsers(); // Lấy tất cả người dùng
 
+    foreach ($allUsers as $u) {
+        if (hashId($u['id']) == $hashID) {
+            $_id = $u['id']; // Lấy ID thực sự
+            $user = $userModel->findUserById($_id);
+            break;
+        }
+    }
+}
 
 if (!empty($_POST['submit'])) {
 
