@@ -1,0 +1,46 @@
+.type-3036 body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+.type-3036 .post a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.type-3036 .post a:hover {
+  color: black;
+}
+.type-3036 .post p {
+  color: grey;
+}
+.type-3036 h4 {
+  font-weight: 600;
+}
+.type-3036 i {
+  padding-right: 10px;
+  color: #188bff;
+}
+.type-3036 .blog .post i {
+  color: gray;
+}
+.type-3036 .tag a {
+  text-decoration: none;
+  color: gray;
+}
+.type-3036 .tag a:hover {
+  background-color: #188bff;
+  color: white;
+}
+.type-3036 .tag-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.type-3036 .tag-content a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.type-3036 .recent,
+.type-3036 .blog,
+.type-3036 .tag {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+.type-3020 body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+.type-3020 .badge {
+  background: linear-gradient(to right,green,yellow) !important;
+  color: white;
+  font-size: 20px;
+}
+.type-3020 h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.type-3020 .baner {
+  background-color: #343b83;
+}
+.type-3020 footer {
+  background-color: #343b83;
+  color: white;
+}
+.type-3020 .list-group-item {
+  border: none;
+}
+.type-3020 .list-group-item a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+.type-3020 .list-group-item a:hover {
+  color: #155724;
+}
+.type-3020 .baner-content {
+  text-align: left;
+}
+.type-3020 i {
+  color: green;
+  padding-right: 5px;
+}
+.type-3020 i:nth-child(2) {
+  margin-left: 20px;
+}
+.type-3020 .category_name {
+  color: #343b83;
+}
